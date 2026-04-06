@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 0px;
+
+}
+
+#geral{
+    width: 500px;
+    min-height: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #b8b1b1;
+    
+}
+
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
