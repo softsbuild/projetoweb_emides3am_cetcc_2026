@@ -1,24 +1,44 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
-    bottom: 0px;
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(28, 88, 199), rgb(25, 25, 25));
 }
 
-#geral{
-    width: 500px;
-    min-height: 650px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #b8b1b1;
-    
+.box{
+     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
 }
 
+fieldset{
+    border: 3px solid dodgerblue;
+}
 
-#formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+   
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
 }
