@@ -1,32 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Projeto Web Git/GitHub</h1>
+  <div class="box">
+    <form action="">
+        <fieldset>
+            <legend><b>Formulário de Clientes</b></legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome">Nome Completo</label>
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" id="email" class="inputUser" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="inputBox">
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                <label for="email">Telefone</label>
+            </div>
 
-    <div id="geral">
-        <h1>Cadastro Simples</h1>
+            <p>Sexo:</p>
+            <input type="radio" name="genero" id="feminino" value="feminino" required>
+            <label for="feminino">Feminino</label>
 
-       <div id="div-form">
-        <form action="" id="formulario">
-            <label for="">Name: </label>
-            <input type="text" name="" id="">
+            <input type="radio" name="genero" id="masculino" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            
+            <input type="radio" name="genero" id="outro" value="outro" required>
+            <label for="outro">Outro</label>
 
-            <label for="">Password</label>
-            <input type="password" name="" id="">
+            <div class="inputBox">
+                <label for="data_nascimento"><b>Ano de Nascimento</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required> 
+            </div>
 
-            <label for="">Email:</label>
-            <input type="text" name="" id="">
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                <label for="cidade">Cidade</label>
+            </div>
 
-            <button onclick="">Cadastrar</button>
-        </form>
-       </div>
-    </div>
-  
+            <div class="inputBox">
+                <input type="text" name="estado" id="estado" class="inputUser" required>
+                <label for="estado">Estado</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco">Endereço</label>
+            </div>
+            
+            <input type="submit" name="submit" id="submit" >
+        </fieldset>
+    </form>
+  </div>
 </body>
 </html>
