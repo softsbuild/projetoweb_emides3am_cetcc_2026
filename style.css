@@ -42,3 +42,46 @@ legend{
     width: 100%;
     letter-spacing: 2px;
 }
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, 
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+#submit{
+    background-image: linear-gradient(to right, rgba(0, 92, 197), rgb(90, 20, 220));
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.box-rest{
+    color: white;
+    position: absolute;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
